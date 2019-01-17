@@ -4,11 +4,10 @@ grid = Array.new(10) {Array.new(10)}
 triangle = FlatObject.new(0,0)
 
 triangle.addVertex(0,0)
-triangle.addVertex(2,0)
-triangle.addVertex(1,1)
+triangle.addVertex(3,4)
 triangle.connectVertices(triangle.vertices[0],triangle.vertices[1])
-triangle.connectVertices(triangle.vertices[1],triangle.vertices[2])
-triangle.connectVertices(triangle.vertices[2],triangle.vertices[0])
+
+puts "Edge 1 has a length of #{triangle.edges[0].length} and it's increments are #{triangle.edges[0].xincrement} x places and #{triangle.edges[0].yincrement} y places."
 
 def draw(grid)
   grid.each do |array|
