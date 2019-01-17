@@ -11,7 +11,5 @@ class Vertex
   def createConnection(vertex)
     @connections << vertex
     @connected = true
-    vertex.connections << self
-    vertex.connected = true
   end
 end
