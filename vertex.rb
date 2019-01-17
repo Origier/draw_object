@@ -5,7 +5,7 @@ class Vertex
     @x_coor = x
     @y_coor = y
     @connected = false
-    @connections = []    
+    @connections = []  
   end
 
   def createConnection(vertex)
