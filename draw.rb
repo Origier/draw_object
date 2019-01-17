@@ -1,4 +1,4 @@
-require_relative "2D_object"
+require_relative "FlatObject"
 
 triangle = FlatObject.new(0,0)
 
