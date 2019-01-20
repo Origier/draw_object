@@ -24,4 +24,8 @@ class FlatObject
   def showCenter
     "(#{@x_coor}, #{@y_coor})"
   end
+
+  def updateCenter
+    
+  end
 end
